@@ -1,0 +1,39 @@
+{
+  "name": "goit-node-hw01",
+  "version": "1.0.0",
+  "description": "node-hw01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taras-vlas/goit-node-hw01.git"
+  },
+  "author": "Taras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taras-vlas/goit-node-hw01/issues"
+  },
+  "homepage": "https://github.com/taras-vlas/goit-node-hw01#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "nodemon": "^2.0.7",
+    "prettier": "2.3.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "calc-js": "^2.0.7",
+    "commander": "^7.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.1.25",
+    "yargs": "^17.0.1"
+  }
+}
